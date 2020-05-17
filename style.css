@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #A4ACFC;
+}
+
+
+.mainBody {
+    width: auto!important;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 850px 1fr;
+    
+    grid-template-areas: 
+    ". . ."
+    ". e ."
+    ". . .";
+}
+.May17 {
+    grid-area: e;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "a a a"
+    "d e f"
+    "d h h";
+    grid-gap: 30px;
+}
+.aay {
+    grid-area: a;
+    background: blue;
+    border-radius: 20px;
+}
+.day {
+    grid-area: d;
+    background: greenyellow;
+    border-radius: 20px;
+}
+.eay {
+    grid-area: e;
+    background: palevioletred;
+    border-radius: 20px;
+}
+.fay {
+    grid-area: f;
+    background: rebeccapurple;
+    border-radius: 20px;
+}
+.hay {
+    grid-area: h;
+    background: khaki;
+    border-radius: 10px;
+}
