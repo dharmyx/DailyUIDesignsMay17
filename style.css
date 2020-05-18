@@ -461,6 +461,8 @@ body {
     }
     
 }
+
+/* MEDIA QUERRY SECTION max-width 640px */
 @media only screen and (max-width: 640px) {
     .comment {
         position: absolute;
@@ -477,6 +479,8 @@ body {
         background: #292847;
     }
 }
+
+/* MEDIA QUERRY SECTION max-width 731px */
 @media only screen and (max-width: 731px) {
     .comment {
         position: absolute;
@@ -493,6 +497,8 @@ body {
         background: #292847;
     }
 }
+
+/* MEDIA QUERRY SECTION max-width 823px */
 @media only screen and (max-width: 823px) {
     .comment {
         position: absolute;
@@ -509,6 +515,9 @@ body {
         background: #292847;
     }
 }
+
+
+/* MEDIA QUERRY SECTION max-width 568px */
 @media only screen and (max-width: 568px) {
     .comment {
         position: absolute;
@@ -556,6 +565,9 @@ body {
         margin-right: 11px;
     }
 }
+
+
+/* MEDIA QUERRY SECTION max-width 667px */
 @media only screen and (max-width: 667px) {
     .comment {
         position: absolute;
@@ -572,6 +584,9 @@ body {
         background: #292847;
     }
 }
+
+
+/* MEDIA QUERRY SECTION max-width 736px */
 @media only screen and (max-width: 736px) {
     .comment {
         position: absolute;
@@ -588,6 +603,9 @@ body {
         background: #292847;
     }
 }
+
+
+/* MEDIA QUERRY SECTION max-width 812px */
 @media only screen and (max-width: 812px) {
     .comment {
         position: absolute;
@@ -604,144 +622,4 @@ body {
         background: #292847;
     }
 }
-@media only screen and (max-width: 1024px) {
-    
-    .May17 {
-        grid-area: e;
-        display: grid;
-        grid-template-columns: 85vw;
-        grid-template-rows: 20px 80px 300px 250px 250px 80px 20px;
-        grid-template-areas: 
-        "."
-        "a"
-        "d"
-        "e"
-        "f"
-        "h"
-        ".";
-        grid-row-gap: 30px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        margin: auto;
-    }
-    .header {
-        max-width: 100%;
-        vertical-align: middle;
-        border-radius: 5px;
-        display: grid;
-        grid-template-columns: repeat(6, auto);
-        grid-template-rows: 10px 50px 10px;
-        grid-template-areas:
-        ". . . . . ."
-        "x y z u v w"
-        ". . . . . .";
-        grid-column-gap: 5px;
-        padding: 8px 10px;
-        box-shadow: 0px 10px 10px #a498fb;
-     }
-     .sidebar {
-         grid-area: d;
-         background: #292847;
-         border-radius: 5px;
-         width: auto;
-         box-shadow: 0px 5px 10px #353566;
-     }
-     .sword {
-        color: #fff;
-        width: 30%;
-        margin: auto;
-        margin-top: 30px;
-        margin-bottom: 15px;
-    }   
-     .column1 {
-         grid-area: e;
-         background: #f2f2f2;
-         border-radius: 5px;
-         box-shadow: 0px 5px 8px #8078f1;
-     }
-     .column2 {
-         grid-area: f;
-         background: #f2f2f2;
-         border-radius: 5px;
-         box-shadow: 0px 5px 8px #8078f1;
-     }
-     .comment {
-        position: absolute;
-        left: 73.98%;
-        right: 15.98%;
-        top: 86.93%;
-        bottom: 7.24%;
-        border-radius: 5px;
-        color: #f2f2f2;
-        text-align: center;
-        font-family: 'Muli', sans-serif;
-        padding: 5px;
-        font-size: 16px;
-        background: #292847;
-    }
-     .font {
-        margin-left: 20px;
-        font-family: 'Muli', sans-serif;
-        color: #83828c;
-        font-size: 13px;
-    }
-    .graf {
-        margin: 20px;
-        width: 90%;
-    }
-     
- }
 
-
- /*
- @media only screen and (max-width: 1366px) {
-    
-    .May17 {
-        grid-area: e;
-        display: grid;
-        grid-template-columns: 77vw;
-        grid-template-rows: 20px 80px 350px 300px 300px 80px 20px;
-    }   
-     .comment {
-        position: absolute;
-        left: 73.98%;
-        right: 15.98%;
-        top: 74.93%;
-        bottom: 19.24%;
-        border-radius: 5px;
-        color: #f2f2f2;
-        text-align: center;
-        font-family: 'Muli', sans-serif;
-        padding: 5px;
-        font-size: 20px;
-        background: #292847;
-    }
-    .upgrade1 {
-        font-size: 18px;
-    }
-    .para {
-        font-size: 16px;
-    }
-     .font {
-        margin-left: 20px;
-        font-family: 'Muli', sans-serif;
-        color: #83828c;
-        font-size: 16px;
-    }
-    .graf {
-        margin: 20px;
-        width: 90%;
-    }
-    .footer {
-        grid-area: h;
-        background: #f2f2f2;
-        border-radius: 5px;
-        display: grid;
-        grid-template-columns: 23% 33% 44%;
-        grid-template-areas: "l m n";
-        grid-column-gap: 3px;
-        box-shadow: 0px 5px 10px #8880f5;
-    }
-    
- }
-*/
