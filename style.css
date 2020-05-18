@@ -176,6 +176,27 @@ body {
     border-radius: 5px;
     box-shadow: 0px 5px 8px #8078f1;
 }
+
+.comment {
+    width: 70px;
+    height: 50px;
+    padding: 10px;
+    float: right;
+    position: relative;
+    top: -70px;
+    left: -5px;
+    background: #292847;
+    color: #f2f2f2;
+    font-family: 'Muli', sans-serif;
+    font-size: 13px;
+    position: relative;
+    border-radius: 3px;
+    text-align: center;
+ }
+ .comment span{
+     font-size: 11px;
+ }
+/*
 .comment {
     position: absolute;
     left: 75.98%;
@@ -190,7 +211,7 @@ body {
     font-size: 12px;
     background: #292847;
 }
-
+*/
 
 /* Footer Section */
 .footer {
@@ -280,8 +301,10 @@ body {
 
 
 /* MEDIA QUERRY SECTION max-width 568px */
+
+
 @media only screen and (max-width: 568px) {
-    .comment {
+   /* .comment {
         position: absolute;
         left: 69.98%;
         right: 13.98%;
@@ -294,7 +317,7 @@ body {
         padding: 5px;
         font-size: 12px;
         background: #292847;
-    }
+    }*/
     .footer {
         grid-area: h;
         background: #f2f2f2;
@@ -331,6 +354,7 @@ body {
 
 
 /* MEDIA QUERRY SECTION max-width 640px */
+/*
 @media only screen and (max-width: 640px) {
     .comment {
         position: absolute;
@@ -346,9 +370,10 @@ body {
         font-size: 12px;
         background: #292847;
     }
-}
+}*/
 
 /* MEDIA QUERRY SECTION max-width 667px */
+/*
 @media only screen and (max-width: 667px) {
     .comment {
         position: absolute;
@@ -365,9 +390,10 @@ body {
         background: #292847;
     }
 }
-
+*/
 
 /* MEDIA QUERRY SECTION max-width 731px */
+/*
 @media only screen and (max-width: 731px) {
     .comment {
         position: absolute;
@@ -383,9 +409,10 @@ body {
         font-size: 12px;
         background: #292847;
     }
-}
+}*/
 
 /* MEDIA QUERRY SECTION max-width 736px */
+/*
 @media only screen and (max-width: 736px) {
     .comment {
         position: absolute;
@@ -402,7 +429,7 @@ body {
         background: #292847;
     }
 }
-
+*/
 
 /* MEDIA QUERRY SECTION max-width : 768px */
 
@@ -502,6 +529,7 @@ body {
         border-radius: 5px;
         box-shadow: 0px 5px 8px #8078f1;
     }
+    /*
     .comment {
         position: absolute;
         left: 65.98%;
@@ -516,6 +544,12 @@ body {
         font-size: 12px;
         background: #292847;
     }
+    */
+    .comment {
+        top: -90px;
+        left: -30px;
+    }
+
     .footer {
         grid-area: h;
         background: #f2f2f2;
@@ -590,6 +624,7 @@ body {
 
 
 /* MEDIA QUERRY SECTION max-width 812px */
+/*
 @media only screen and (max-width: 812px) {
     .comment {
         position: absolute;
@@ -606,7 +641,7 @@ body {
         background: #292847;
     }
 }
-
+*/
 
 /* MEDIA QUERRY SECTION max-width 823px */
 /*
