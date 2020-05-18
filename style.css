@@ -448,7 +448,7 @@ body {
         grid-area: e;
         display: grid;
         grid-template-columns: 85vw;
-        grid-template-rows: 20px 80px 250px 200px 200px 80px 20px;
+        grid-template-rows: 20px 80px 280px 200px 200px 80px 20px;
         grid-template-areas: 
         "."
         "a"
